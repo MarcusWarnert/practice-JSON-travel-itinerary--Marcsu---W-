@@ -1,0 +1,47 @@
+{
+    "tripName": "Carnival ship elation",
+    "travelers": {
+        "name": {
+            "Chris": { 
+                "Contact": {
+                    "email": "chris@gmail.com",
+                    "phone": "(603)867-1234"
+                }
+            },
+            "Linda": { 
+                "Contact": {
+                    "email": "linda@gmail.com",
+                    "phone": "(603)967-1654"
+                }
+            }
+        }    
+    },
+    "destinations": {
+        "locations": {
+            "Paris": {
+                "departureDate": "01/10/99",
+                "arrivalDate": "02/20/99",
+                "activities": {
+                    "title": "Pickleball",
+                    "scheduledTime": "12:00 PM"
+                }
+            },
+            "Uruguay": {
+                "departureDate": "03/20/00",
+                "arrivalDate": "04/30/00",
+                "activities": {
+                    "title": "Swimming",
+                    "scheduledTime": "12:00 PM"
+                }
+            },
+            "Mars": {
+                "departureDate": "01/10/01",
+                "arrivalDate": "10/01/10",
+                "activities": {
+                    "title": "Volleyball",
+                    "scheduledTime": "12:00 PM"
+                }
+            }
+        }
+    }
+}
