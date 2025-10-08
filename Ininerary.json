@@ -2,14 +2,14 @@
     "tripName": "Carnival ship elation",
     "travelers": {
         "name": {
-            "Chris": { 
-                "Contact": {
+            "Chris": {
+                "contact": {
                     "email": "chris@gmail.com",
                     "phone": "(603)867-1234"
                 }
             },
             "Linda": { 
-                "Contact": {
+                "contact": {
                     "email": "linda@gmail.com",
                     "phone": "(603)967-1654"
                 }
@@ -17,31 +17,54 @@
         }    
     },
     "destinations": {
-        "locations": {
-            "Paris": {
+        "locations": [
+            {"Paris": {
                 "departureDate": "01/10/99",
                 "arrivalDate": "02/20/99",
-                "activities": {
-                    "title": "Pickleball",
-                    "scheduledTime": "12:00 PM"
-                }
-            },
-            "Uruguay": {
+                "hotelInformation": "Qui Qui Baguette",
+                "activities": [
+                    {"title": "Pickleball",
+                    "scheduledTime": "12:00 PM" 
+                    },
+                    {"title": "Basketball",
+                    "scheduledTime": "3:00 PM"
+                }]
+            }},
+            {"Uruguay": {
                 "departureDate": "03/20/00",
                 "arrivalDate": "04/30/00",
                 "activities": {
                     "title": "Swimming",
                     "scheduledTime": "12:00 PM"
                 }
-            },
-            "Mars": {
+            }},
+            {"Mars": {
                 "departureDate": "01/10/01",
                 "arrivalDate": "10/01/10",
                 "activities": {
                     "title": "Volleyball",
                     "scheduledTime": "12:00 PM"
                 }
-            }
-        }
+            }},
+            {"England": {
+                "departureDate": "10/03/25",
+                "arrivalDate": "10/04/25",
+                "transportation": [
+                    {"bus": "Line 1",
+                    "cost": "$25"
+                    },
+                    {"taxi": "Black",
+                    "cost": "$15"
+                    }
+                ],
+                "activities": [
+                    {"title": "Visit `Big Ben`",
+                    "scheduledTime": "12:00 PM" 
+                    },
+                    {"title": "Ride the `I`",
+                    "scheduledTime": "3:00 PM"
+                }]
+            }}
+        ]
     }
 }
